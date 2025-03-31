@@ -20,6 +20,8 @@ namespace HelpApp.Domain.Entities
             ValidateDomain(name, description, price, stock, image);
         }
 
+        //teste
+
         public Product(int id, string name, string description, decimal price, int stock, string image)
         {
             DomainExceptionValidation.When(id < 0, "Update Invalid Id value");
